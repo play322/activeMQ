@@ -1,0 +1,13 @@
+server:
+  port: 6666
+
+spring:
+  activemq:
+    broker-url: tcp://192.168.179.128:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: true  #true=topic
+
+#指定topic名称
+mytopic: boot-activemq-topic
